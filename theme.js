@@ -138,6 +138,26 @@ export default class Theme {
             "`,
             d_none: `"
                 display: none;
+            "`,
+            label: `"
+                font-family: system-ui;
+            "`
+            ,
+            sendBtn: `"
+                border: 1px solid indianred;
+                padding: 8px 32px;
+                border-radius: 0.25rem;
+                background-color: white;
+                color: indianred;
+                font-family: system-ui;
+                cursor: pointer;
+            "`
+            ,input: `"
+                border: 1px solid indianred;
+                padding: 8px;
+                width: 125px;
+                border-radius: 0.25rem;
+                color: indianred;
             "`
         }
     }

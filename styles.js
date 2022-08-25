@@ -128,6 +128,9 @@ export const styles = {
     "`,
     d_none: `"
         display: none;
+    "`,
+    label: `"
+        font-family: system-ui;
     "`
-    
+
 }

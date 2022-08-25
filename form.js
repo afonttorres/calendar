@@ -16,21 +16,26 @@ export default class Form {
         this.data = data;
     }
 
-    setTheme(theme){
+    setTheme(theme) {
         this.theme = theme;
         // this.render();
     }
 
+    
     render() {
+        console.log(this.theme.styles.label)
         return (
             `
-            <input placeholder="year" name="year" type="text" />
-            <input placeholder="month" name="month" type="text"/>
+            <input style=${this.theme.styles.input} placeholder=" Year" name="year" type="text" />
+            <input style=${this.theme.styles.input} placeholder=" Month" name="month" type="text"/>
 
+            <label style=${this.theme.styles.label}>Background color</label>
             <input placeholder="background color" name="backgroundColor" type="color"/>
+
+            <label style=${this.theme.styles.label}>Font color</label>
             <input placeholder="theme color" name="themeColor" type="color"/>
 
-            <button id="send_btn" type=button  >send</button>
+            <button style=${this.theme.styles.sendBtn} id="send_btn" type=button>Send</button>
         `
         )
     }
