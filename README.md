@@ -19,7 +19,7 @@ Vanilla JavaScript  project developed so my mum can print her own calendar inste
 + Visual Studio Code
 
 ## Objectives and Features
-The objective of this project is to print either the present month calendar or a choosen one and be able to change its colors by chosing both date and theme in a form.
+The objective of this project is to print either the present month calendar or a choosen one and be able to change its colors by chosing both date and theme in a form. If the current month is the one displayed, current day display will be lightly different.
 
 Actually was a mock application to joke with my mum but I would like to take it serious and refactor the code as well as add some features to it.
 
